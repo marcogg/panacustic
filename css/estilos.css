@@ -95,10 +95,32 @@
 .img-instalaciones{
 	width: 100%;
 	height: auto;
+	background-image: url("../img/slider2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100%;
+}
+
+@media screen and (max-width: 768px){
+	.img-instalaciones{
+		width: 100%;
+		min-height: 200px;
+		height: 200px !important;
+	}
 }
 .box{
 	padding-top:10%;
 	padding-bottom: 10%;
 	padding-right: 20%;
 	padding-left: 20%;
+
+}
+
+.content-box{
+	padding-top:10%;
+	padding-bottom: 2%;
+	padding-right: 20%;
+	padding-left: 20%;
+	margin: 5%;
+	box-shadow: 5px 5px 20px rgba(0,0,0,.5);
 }
